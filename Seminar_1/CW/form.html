@@ -10,10 +10,15 @@
         <a href="/Seminar_1/CW/info/about.html">Обо мне</a>
         <a href="/Seminar_1/CW/form.html">Оставить заявку</a>
     <h1>Оставить заявку</h1>
-    <input type="text" placeholder="Введите ваше имя"><br>
-    <input type="text" placeholder="Введите адрес почты"><br>
-    <br>
-    <button>Отправить</button>
-    <button>Стереть форму</button>
+    <form action="#">
+        <label for="name">Ваше имя</label>
+        <input id="name" type="text" placeholder="Введите ваше имя"><br><br>
+        <label for="email">Ваша почта</label>
+        <input id="email" type="email" placeholder="Введите адрес почты"><br><br>
+        <input type="submit" value="Отправить"></input>
+        <input type="reset" value="Стереть форму"></input>
+        <!-- <button type="submit">Отправить</button> -->
+        <!-- <button type="reset">Стереть форму</button> -->
+    </form>
     </body>
 </html>
