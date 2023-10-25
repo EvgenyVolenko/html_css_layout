@@ -4,19 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="/Seminar_1/CW/index.html">Главная</a></li>
-        <a href="/Seminar_1/CW/info/about.html">Обо мне</a>
-        <a href="/Seminar_1/CW/form.html">Оставить заявку</a>
-    <h1>Оставить заявку</h1>
+        <a class="menu__link" href="/Seminar_1/CW/index.html">Главная</a></li>
+        <a class="menu__link" href="/Seminar_1/CW/info/about.html">Обо мне</a>
+        <a class="menu__link" href="/Seminar_1/CW/form.html">Оставить заявку</a>
+    <h1 class="title">Оставить заявку</h1>
     <form action="#">
         <label for="name">Ваше имя</label>
-        <input id="name" type="text" placeholder="Введите ваше имя"><br><br>
+        <input class="form__input" id="name" type="text" placeholder="Введите ваше имя"><br><br>
         <label for="email">Ваша почта</label>
-        <input id="email" type="email" placeholder="Введите адрес почты"><br><br>
-        <input type="submit" value="Отправить"></input>
-        <input type="reset" value="Стереть форму"></input>
+        <input class="form__input" id="email" type="email" placeholder="Введите адрес почты"><br><br>
+        <input class="form__button" type="submit" value="Отправить"></input>
+        <input class="form__button" type="reset" value="Стереть форму"></input>
         <!-- <button type="submit">Отправить</button> -->
         <!-- <button type="reset">Стереть форму</button> -->
     </form>
