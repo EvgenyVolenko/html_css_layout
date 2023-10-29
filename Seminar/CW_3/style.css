@@ -61,6 +61,10 @@ a {
     /* 28.8px */
 }
 
+.top_content__buttons {
+    display: flex;
+}
+
 .top_content__button {
     padding: 15px 30px;
     color: var(--ffffff, #FFF);
@@ -70,6 +74,8 @@ a {
     line-height: normal;
     border-radius: 5px;
     background: var(--3-a-68-b-8, #3A68B8);
+    display: flex;
+    align-items: center;
 }
 
 .logos {
