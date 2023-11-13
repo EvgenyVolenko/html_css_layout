@@ -35,17 +35,18 @@ a {
     font-weight: 400;
     line-height: normal;
     padding-top: 10px;
+    color: #000;
+    font-family: Gilroy-Medium;
 }
 
-.header__links_selected {
+.header__links_colored {
     color: #F25822;
     font-family: Gilroy-SemiBold;
 }
 
-.header__links_unselected {
-    color: #000;
-    font-family: Gilroy-Medium;
-}
+/* .header__links_unselected {
+    
+} */
 
 .top {
     padding-top: 44px;
