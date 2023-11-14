@@ -49,6 +49,7 @@ a {
     display: flex;
     justify-content: space-between;
     width: 534px;
+    padding-right: 30px;
 }
 
 .header__links_selected {
@@ -91,11 +92,6 @@ a {
 
 .top__content__buttons {
     margin-top: 36px;
-    font-family: Gilroy-Bold;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     display: flex;
     gap: 72px;
 }
@@ -107,17 +103,19 @@ a {
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
     padding: 16px 36px;
     border: none;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
 }
 
 .top_content__button-small {
     color: #AAA;
     border: none;
     background-color: #FFF;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
 }
-
-/* .top__image {
-    width: 545px;
-} */
 
 .logos {
     padding-top: 96px;
