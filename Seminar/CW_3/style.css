@@ -12,9 +12,17 @@ a {
     text-decoration: none;
 }
 
+.center {
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
+}
+
 .header {
     padding-top: 39px;
     padding-bottom: 39px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .header__menu {
@@ -28,6 +36,8 @@ a {
 .top {
     padding-top: 160px;
     padding-bottom: 98px;
+    display: flex;
+    gap: 128px;
 }
 
 .heading__small {
@@ -63,6 +73,7 @@ a {
 
 .top_content__buttons {
     display: flex;
+    gap: 20px;
 }
 
 .top_content__button {
@@ -76,8 +87,11 @@ a {
     background: var(--3-a-68-b-8, #3A68B8);
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .logos {
     padding-top: 98px;
+    display: flex;
+    justify-content: space-between;
 }
