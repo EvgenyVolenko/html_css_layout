@@ -18,3 +18,10 @@
     font-style: normal;
     font-weight: 500;
 }
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("./fonts/GilroyRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
