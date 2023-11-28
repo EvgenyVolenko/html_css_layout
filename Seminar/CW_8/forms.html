@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <form action>
+            <p>
+                <label for="name">Имя</label>
+                <input id="name" autofocus type="text" required
+                    placeholder="Иван">
+            </p>
+            <p>
+                <label for="email">Емейл</label>
+                <input id="email" type="email" required
+                    placeholder="ivan@ivanov.ru">
+            </p>
+            <p>
+                <label for="password">Пароль</label>
+                <input id="password" required type="password">
+            </p>
+            <p>
+                <label for="age">Возраст</label>
+                <input id="age" required type="number">
+            </p>
+            <p>
+                <label for="time">Дата рождения</label>
+                <input id="time" required type="date">
+            </p>
+            <p>
+                <label for="phone">Номер телефона</label>
+                <input id="phone" required type="tel">
+            </p>
+            <p>
+                <label for="range">Оценка</label>
+                <input id="range" type="range" min="1" max="10">
+            </p>
+            <input type="submit" value="Отправить">
+        </form>
+        <div style="height: 100vh; display: flex; justify-content: center;">
+            <audio src controls></audio>
+        </div>
+        <div
+            style="height: 100vh; display: flex; justify-content: center; width: 700px;">
+            <video src controls></video>
+        </div>
+
+    </body>
+
+</html>
