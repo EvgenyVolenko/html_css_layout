@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navbar-example3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar scroll</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul
+                        class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Link
+                            </a>
+                            <ul class="dropdown-menu"
+                                aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another
+                                        action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something
+                                        else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Link</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search"
+                            placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+
+        <div class="row">
+            <div class="col-4">
+                <nav id="navbar-example3"
+                    class="h-100 flex-column align-items-stretch pe-4 border-end">
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link" href="#item-1">Элемент 1</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#item-1-1">Элемент
+                                1-1</a>
+                            <a class="nav-link ms-3 my-1" href="#item-1-2">Элемент
+                                1-2</a>
+                        </nav>
+                        <a class="nav-link" href="#item-2">Элемент 2</a>
+                        <a class="nav-link" href="#item-3">Элемент 3</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#item-3-1">Элемент
+                                3-1</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-2">Элемент
+                                3-2</a>
+                        </nav>
+                    </nav>
+                </nav>
+            </div>
+
+            <div class="col-8">
+                <div class="anyClass" data-bs-spy="scroll"
+                    data-bs-target="#navbar-example3"
+                    data-bs-smooth-scroll="true" class="scrollspy-example-2"
+                    tabindex="0">
+                    <div id="item-1">
+                        <h4>Элемент 1</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aut voluptatum laudantium impedit
+                            exercitationem quas iusto quam, recusandae a
+                            deserunt sed odio eum maxime atque cumque? Repellat,
+                            architecto voluptate reprehenderit suscipit ex vel
+                            sapiente culpa commodi hic minus beatae? Impedit
+                            quos suscipit harum ipsum repellat, illum
+                            reprehenderit architecto nisi mollitia? Architecto
+                            corrupti iure soluta corporis, ducimus tempore harum
+                            illo repudiandae nam ex animi voluptas debitis
+                            repellat modi praesentium magnam labore, ad nobis
+                            numquam tenetur earum ea fugit? Laborum eos dolorem
+                            officiis libero porro molestiae iste explicabo,
+                            iusto eveniet adipisci quaerat recusandae, possimus
+                            velit aspernatur sed ullam error ipsa aut sint
+                            atque.</p>
+                    </div>
+                    <div id="item-1-1">
+                        <h5>Элемент 1-1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Nam iste placeat harum voluptatum, facere
+                            maxime veniam quidem incidunt, numquam non vero enim
+                            aut maiores reprehenderit dolore voluptate porro,
+                            voluptates suscipit dolorem labore fugiat! Omnis
+                            mollitia expedita et asperiores eos iure
+                            perspiciatis sed, libero possimus enim, vel dolorum
+                            maiores. Aperiam voluptates, fugiat incidunt commodi
+                            animi maxime ex dolorem consequatur reiciendis
+                            aliquam adipisci ut delectus, accusamus deleniti
+                            fugit, illo nobis magnam libero hic dignissimos
+                            deserunt. Repellendus, repudiandae numquam quod aut
+                            tenetur unde distinctio, nobis alias magnam quaerat
+                            reiciendis consectetur architecto possimus modi,
+                            rerum sapiente provident mollitia nesciunt inventore
+                            quam dolor esse. Officia alias fuga, nihil unde
+                            molestiae explicabo. Ipsam tempore harum ratione
+                            quasi adipisci porro ea dolorum placeat iste sit?
+                            Nisi aut maiores, ex veniam vitae non placeat
+                            dolorem officia aspernatur, doloribus velit eius,
+                            illo quisquam similique repellat voluptas hic
+                            voluptatum neque! Unde illo neque enim perspiciatis
+                            sit. Voluptas ullam veritatis unde.</p>
+                    </div>
+                    <div id="item-1-2">
+                        <h5>Элемент 1-2</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Laudantium, recusandae minima! Fugiat odit at
+                            laudantium sit architecto dolore fugit obcaecati sed
+                            qui nemo, ad assumenda iste hic, possimus, doloribus
+                            aperiam autem perferendis. Debitis consectetur,
+                            commodi voluptatibus, sunt placeat a hic mollitia
+                            incidunt ad doloribus nam vitae error. Atque
+                            possimus suscipit exercitationem tempore unde
+                            repudiandae itaque doloribus sunt laudantium
+                            assumenda eum similique eveniet, alias corrupti.
+                            Magni eligendi deserunt iste officia reprehenderit
+                            velit suscipit quis alias eos, architecto temporibus
+                            rem, laborum eaque, error ducimus et obcaecati
+                            accusantium placeat! Aut corrupti quidem et amet
+                            praesentium ullam molestias, quo rerum consequuntur,
+                            a esse vero aliquam expedita nemo, numquam iure!
+                            Culpa debitis ea fuga voluptatibus eaque accusamus
+                            magnam blanditiis impedit quibusdam quaerat
+                            consequuntur, provident corrupti. Eaque eveniet sit
+                            labore aliquam dolores voluptatum ad obcaecati quia
+                            illum! Culpa maxime sapiente tenetur, suscipit
+                            voluptas eaque nesciunt natus debitis nobis unde
+                            iusto quisquam necessitatibus magni! Iure,
+                            aspernatur. Deserunt deleniti dolor, quia rem
+                            architecto nam cupiditate quis harum aperiam dolore
+                            corporis, praesentium temporibus, iure dolorum
+                            numquam! At omnis possimus quas incidunt maxime
+                            sapiente, ducimus magnam libero eveniet neque
+                            consequatur, suscipit ea sit earum culpa laborum
+                            nemo? Necessitatibus placeat assumenda beatae ipsa
+                            eos dolorum odio doloremque sequi at? Quisquam,
+                            quis.</p>
+                    </div>
+                    <div id="item-2">
+                        <h4>Элемент 2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Sequi saepe facilis quo, excepturi, ipsum
+                            error necessitatibus voluptatibus culpa fugiat
+                            placeat voluptatum laborum, debitis vero iste
+                            quibusdam! Mollitia officia natus praesentium.</p>
+                    </div>
+                    <div id="item-3">
+                        <h4>Элемент 3</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Dolore at esse vitae distinctio ducimus omnis
+                            debitis hic amet, adipisci laudantium sequi? Quas
+                            aliquam, sequi voluptatum fuga adipisci eligendi in
+                            tenetur dignissimos voluptas saepe qui dolor quia,
+                            distinctio excepturi impedit nihil nesciunt.
+                            Reiciendis, veritatis. Quis laudantium deleniti nisi
+                            officiis molestiae dolore.</p>
+                    </div>
+                    <div id="item-3-1">
+                        <h5>Элемент 3-1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Dolore at esse vitae distinctio ducimus omnis
+                            debitis hic amet, adipisci laudantium sequi? Quas
+                            aliquam, sequi voluptatum fuga adipisci eligendi in
+                            tenetur dignissimos voluptas saepe qui dolor quia,
+                            distinctio excepturi impedit nihil nesciunt.
+                            Reiciendis, veritatis. Quis laudantium deleniti nisi
+                            officiis molestiae dolore.</p>
+                    </div>
+                    <div id="item-3-2">
+                        <h5>Элемент 3-2</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Dolore at esse vitae distinctio ducimus omnis
+                            debitis hic amet, adipisci laudantium sequi? Quas
+                            aliquam, sequi voluptatum fuga adipisci eligendi in
+                            tenetur dignissimos voluptas saepe qui dolor quia,
+                            distinctio excepturi impedit nihil nesciunt.
+                            Reiciendis, veritatis. Quis laudantium deleniti nisi
+                            officiis molestiae dolore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide"
+                style="margin: 64px auto; "
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0" class="active" aria-current="true"
+                        aria-label="Slide 1"></button>
+                    <button type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./mountains-lake.jpg" class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the
+                                first
+                                slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./peaceful-mother-nature-landscape.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the
+                                second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="./view-of-an-old-tree-in-a-lake-with-the-snow-covered-mountains-in-the-on-a-cloudy-day.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the
+                                third
+                                slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous">
+        </script>
+    </body>
+</html>
